@@ -4,18 +4,18 @@ You are a Web Developer at 'Code Sculpt Studio' Web Solutions. Your latest proje
 
 ### Objective
 
-`__After successfully completing this project, you will acquire the following skills and knowledge:__`
+**After successfully completing this project, you will acquire the following skills and knowledge:**
 
-**Design a responsive layout that adjusts to different screen sizes.**
+- Design a responsive layout that adjusts to different screen sizes.
 
-**Incorporate a user-friendly navigation menu to streamline website navigation.**
+- Incorporate a user-friendly navigation menu to streamline website navigation.
 
-**Apply CSS styling and leverage Bootstrap to elevate the website's visual aesthetics.**
+- Apply CSS styling and leverage Bootstrap to elevate the website's visual aesthetics.
 
-**Integrate image galleries to effectively display photographs of the restaurant.**
+- Integrate image galleries to effectively display photographs of the restaurant.
 
-**Construct informative sections containing restaurant-related content, including details about the establishment, its menu offerings, and the ambiance it offers.**
+- Construct informative sections containing restaurant-related content, including details about the establishment, its menu offerings, and the ambiance it offers.
 
-**Provide comprehensive contact information, encompassing the restaurant's physical address, operating hours, email address, and contact phone number.**
+- Provide comprehensive contact information, encompassing the restaurant's physical address, operating hours, email address, and contact phone number.
 
-**Develop a reservation form to facilitate booking and reservations**
+- Develop a reservation form to facilitate booking and reservations
