@@ -522,7 +522,7 @@
                   <a
                     class="nav-link active"
                     id="food-tab"
-                    data-toggle="food"
+                    data-toggle="tab"
                     href="#food"
                     role="tab"
                     aria-controls="food"
@@ -533,13 +533,13 @@
 
                 <li class="nav-item">
                   <a
-                    class="nav-link active"
+                    class="nav-link"
                     id="ambience-tab"
-                    data-toggle="ambience"
-                    href="#food"
+                    data-toggle="tab"
+                    href="#ambience"
                     role="tab"
-                    aria-controls="food"
-                    aria-selected="true"
+                    aria-controls="ambience"
+                    aria-selected="false"
                     >Ambience</a
                   >
                 </li>
@@ -556,21 +556,21 @@
                   <div class="row">
                     <div class="col-md-4">
                       <img
-                        src="./assets/images/orange-color-geometric-seamless-texture_601200-897.jpg"
+                        src="./assets/images/served-with-rice.jpg"
                         class="img-fluid"
                       />
                     </div>
 
                     <div class="col-md-4">
                       <img
-                        src="./assets/images/luxury-modern-background-abstract-designs_343694-1892.jpg"
+                        src="./assets/images/close-up-of-a-bowl-of-indian-mutton-curry.jpg"
                         class="img-fluid"
                       />
                     </div>
 
                     <div class="col-md-4">
                       <img
-                        src="./assets/images/creative-clay-textured-background-blue-border-diy-tie-dye-art-abstract-style_53876-134220.jpg"
+                        src="./assets/images/homecooked-omotuoa.jpg"
                         class="img-fluid"
                       />
                     </div>
@@ -581,21 +581,21 @@
                   <div class="row">
                     <div class="col-md-4">
                       <img
-                        src="./assets/images/creative-clay-textured-background-blue-border-diy-tie-dye-art-abstract-style_53876-134220.jpg"
+                        src="./assets/images/fish-meal-ghana-food.jpg"
                         class="img-fluid"
                       />
                     </div>
 
                     <div class="col-md-4">
                       <img
-                        src="./assets/images/luxury-modern-background-abstract-designs_343694-1892.jpg"
+                        src="./assets/images/barbecue-chicken-jollof-rice.jpg"
                         class="img-fluid"
                       />
                     </div>
 
                     <div class="col-md-4">
                       <img
-                        src="./assets/images/orange-color-geometric-seamless-texture_601200-897.jpg"
+                        src="./assets/images/vegetarian-cuisine-ogbono-soup-jolloff-etcetera-okra-soup-food-png-favpng-f61sipP64uKkw3RrwxN6hu3yn_t.jpg"
                         class="img-fluid"
                       />
                     </div>
@@ -660,6 +660,155 @@
             </div>
           </div>
         </section>
+        <!--Contact-->
+        <section id="contact" class="contact">
+          <div class="container" data-aos="fade-up">
+            <!--Section title-->
+            <div class="section-title">
+              <h3>Contact</h3>
+              <p>Contact Us</p>
+            </div>
+            <!--Google Map Embed-->
+            <div data-aos="fade-up">
+              <iframe
+                style="border: 0; width: 100%; height: 350px"
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6641.6162694677!2d-117.99591!3d33.662133!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1692763637266!5m2!1sen!2sus"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <!--Contact Details-->
+            <div class="container" data-aos="fade-up">
+              <div class="row mt-5">
+                <!--Column 1-->
+                <div class="col-lg-4">
+                  <div class="info">
+                    <div class="address">
+                      <i class="bi bi-geo-alt-fill"></i>
+                      <h4>Location:</h4>
+                      <p>
+                        Insert the location of the restaurant's location that
+                        you prefer.
+                      </p>
+                    </div>
+                    <div class="open-hours">
+                      <i class="bi bi-clock-fill"></i>
+                      <h4>Open Hours:</h4>
+                      <p>
+                        Monday - Sunday:<br />
+                        9:00 AM - 11:00 PM
+                      </p>
+                    </div>
+                    <div class="email">
+                      <i class="bi bi-envelope-at-fill"></i>
+                      <h4>Email:</h4>
+                      <p>[Email Id]</p>
+                    </div>
+                    <div class="phone">
+                      <i class="bi bi-telephone-inbound-fill"></i>
+                      <h4>Phone:</h4>
+                      <p>[Phone Number]</p>
+                    </div>
+                  </div>
+                </div>
+                <!--Column 2-->
+                <div class="col-lg-8 mt-5 mt-lg-0">
+                  <form class="php-email-form">
+                    <div class="row">
+                      <div class="col-md-6 form-group">
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your Name"
+                          required
+                        />
+                      </div>
+
+                      <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          id="email"
+                          placeholder="Your Email"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="form-group mt-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        id="subject"
+                        placeholder="Subject"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-group mt-3">
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        rows="8"
+                        placeholder="Message"
+                        required
+                      ></textarea>
+                    </div>
+
+                    <div class="text-center">
+                      <button
+                        type="submit"
+                        onclick="showAlert('Thank you for contacting us!')"
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Footer-->
+        <footer id="footer">
+          <div class="footer-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="footer-info">
+                    <h2>Food Centa</h2>
+
+                    <div class="social-links mt-3">
+                      <a href="#"> <i class="bi bi-twitter"></i></a>
+
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+
+                      <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- column 2-->
+                <div class="col-lg-6 col-md-6 footer-links">
+                  <h5>Useful Links</h5>
+
+                  <ul>
+                    <li><a href="#hero">Home</a></li>
+
+                    <li><a href="#about">About us</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </main>
     </body>
   </head>
